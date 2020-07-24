@@ -3,11 +3,339 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Wudueuk</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>НОВОКУБАНСКОЕ РАЙОННОЕ КАЗАЧЬЕ ОБЩЕСТВО</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <a href="nrko_bs4/index.html">Сайт Казачьего общества</a>
+	<header>
+		<div class="container">
+			<div class="d-flex justify-content-between align-items-center">
+				<img src="img/logo.png" class="float-left header__logo" alt="Логотип" width="120" height="132">
+				<h1 class="text-center header__title">НОВОКУБАНСКОЕ РАЙОННОЕ КАЗАЧЬЕ ОБЩЕСТВО</h1>
+			</div>
+		</div>
+	</header>
+
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">О нас</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Наша миссия</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Новости</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Галлерея</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Поиск по сайту" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Искать</button>
+			</form>
+		</div>
+	</nav>
+
+	<section class="about">
+		<div class="container">
+			<div class="d-flex flex-column flex-md-row align-items-center align-items-sm-start">
+				<div class="about__img"><img src="img/about.jpg" class="rounded" alt="about"></div>
+				<div class="about__body">
+					<h2 class="about__title">О нас</h2>
+					<p class="about__text"><b>Новокубанское районное казачье общество</b> Лабинского отдельского казачьего
+						общества Кубанского войскового казачьего общества (Кубанского казачьего войска)</p>
+					<p class="about__text">Районное казачье общество состоит из девяти первичных обществ: одного городского и
+						восьми хуторских, в которых состоит 1096 казаков. На сегодняшний день во многих хуторских казачьих
+						обществах наблюдается значительный рост численности казаков. Районное казачье общество оказывает
+						помощь классам казачьей направленности на приобретение формы, оформление тематических уголков.</p>
+					<button type="button" class="btn btn-info float-right">Подробнее &raquo;</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mission">
+		<div class="container">
+			<h2 class="mission__title text-center">Наша миссия</h2>
+			<div class="row">
+				<div class="col-lg-6 flex-lg-row">
+					<div class="mission__item flex-column flex-sm-row align-items-center align-items-sm-start">
+						<div class="mission__image"><img src="img/mission_1.jpg"
+								alt="Картинка - Возрождение казачьих обычаев"></div>
+						<div class="mission__body">
+							<h3 class="mission__item-title">Возрождение казачьих обычаев</h3>
+							<p class="mission__item-text text-justify">Продвижение казачьего образования среди учащихся средних
+								и
+								старших классов
+								школ
+								района, распространение казачьих обычаев</p>
+							<button type="button" class="btn btn-sm btn-light">Подробнее &raquo;</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 flex-lg-row">
+					<div class="mission__item flex-column flex-sm-row align-items-center align-items-sm-start">
+						<div class="mission__image"><img src="img/mission_2.jpg"
+								alt="Картинка - Военно-патриотическое воспитание детей и молодёжи"></div>
+						<div class="mission__body">
+							<h3 class="mission__item-title">Военно-патриотическое воспитание детей и молодёжи</h3>
+							<p class="mission__item-text text-justify">Воспитание молодого поколения казаков, развитие у них
+								чувства
+								патриотизма,
+								проведение занятий по начальной военной подготовке, обучение первичным навыкам и умениям
+								владения
+								оружием, строевая подготовка</p>
+							<button type="button" class="btn btn-sm btn-light">Подробнее &raquo;</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 flex-lg-row">
+					<div class="mission__item flex-column flex-sm-row align-items-center align-items-sm-start">
+						<div class="mission__image"><img src="img/mission_3.jpg" alt="Картинка - Волонтерское движение">
+						</div>
+						<div class="mission__body">
+							<h3 class="mission__item-title">Волонтерское движение</h3>
+							<p class="mission__item-text text-justify">Участие в краевых и районных акциях, адресная помощь
+								ветеранам
+								Великой Отечественной войны и локальных конфликтов, поддержка работы школьных поисковых отрядов,
+								уход
+								за захоронениями неизвестных воинов, павших в боях за нашу Родину</p>
+							<button type="button" class="btn btn-sm btn-light">Подробнее &raquo;</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 flex-lg-row">
+					<div class="mission__item flex-column flex-sm-row align-items-center align-items-sm-start">
+						<div class="mission__image"><img src="img/mission_4.jpg" alt="Картинка - Культурно-массовая работа">
+						</div>
+						<div class="mission__body">
+							<h3 class="mission__item-title">Культурно-массовая работа</h3>
+							<p class="mission__item-text text-justify">Участие в фестивалях, творческих конкурсах, ярмарках,
+								концертных программах и выставках районного и краевого уровней</p>
+							<button type="button" class="btn btn-sm btn-light">Подробнее &raquo;</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="news">
+		<div class="container">
+			<h2 class="news__title text-center">Новости</h2>
+			<div class="row">
+				<div class="col-lg-6 flex-lg-row">
+					<div class="news__item flex-column flex-sm-row align-items-center align-items-sm-start">
+						<div class="news__image">
+							<img src="img/news_1.jpg" alt="Внимание! Конкурс!">
+						</div>
+						<div class="news__body">
+							<h3 class="news__item-title">Внимание! Конкурс!</h3>
+							<p class="news__item-text">В наше непростое время, в условиях опасности заболевания новой
+								коронавирусной инфекцией, когда большую часть времени многим приходится проводить дома, мы
+								создали для Вас конкурс на лучшее домашнее подворье с розыгрышем 3-х призов.</p>
+							<button type="button" class="btn btn-info float-right">Читать далее &raquo;</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 flex-lg-row">
+					<div class="news__item flex-column flex-sm-row align-items-center align-items-sm-start">
+						<div class="news__image">
+							<img src="img/news_2.jpg" alt="Уроки в казачьих классах">
+						</div>
+						<div class="news__body">
+							<h3 class="news__item-title">Уроки в казачьих классах</h3>
+							<p class="news__item-text">Наши наставники регулярно проводят уроки в казачьих классах.
+								Рассказывают об истории Казачества, обучают обращению с оружием. В преддверии Дня защитника
+								Отечества уроки проведены в школе № 1 села Мурованка.</p>
+							<button type="button" class="btn btn-info float-right">Читать далее &raquo;</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 flex-lg-row">
+					<div class="news__item flex-column flex-sm-row align-items-center align-items-sm-start">
+						<div class="news__image">
+							<img src="img/news_3.jpg" alt="Клятва казаков">
+						</div>
+						<div class="news__body">
+							<h3 class="news__item-title">Клятва казаков</h3>
+							<p class="news__item-text">23 февраля казаки Новокубанского ХКО дали священную клятву защите веры
+								православной и службе принципам и традициям казачества.</p>
+							<button type="button" class="btn btn-info float-right">Читать далее &raquo;</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 flex-lg-row">
+					<div class="news__item flex-column flex-sm-row align-items-center align-items-sm-start">
+						<div class="news__image">
+							<img src="img/news_4.jpg" alt="Новая площадка под страйкбол">
+						</div>
+						<div class="news__body">
+							<h3 class="news__item-title">Новая площадка под страйкбол</h3>
+							<p class="news__item-text">Силами казаков и с помощью Страйкбольного клуба "Скорпион" город
+								Армавир, вторую субботу подряд, мы очищаем, подготавливаем и тренируемся на новой площадке. База
+								бывшего лесхоза.</p>
+							<button type="button" class="btn btn-info float-right">Читать далее &raquo;</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button type="button" class="btn btn-warning">Все новости &raquo;</button>
+		</div>
+	</section>
+
+	<section class="gallery bg-secondary">
+		<div class="container-fluid">
+			<h2 class="gallery__title text-center">Галлерея</h2>
+			<div class="slider">
+				<div class="slider_item"><img src="img/gallery/01.jpg" alt="slide"></div>
+				<div class="slider_item"><img src="img/gallery/02.jpg" alt="slide"></div>
+				<div class="slider_item"><img src="img/gallery/03.jpg" alt="slide"></div>
+				<div class="slider_item"><img src="img/gallery/04.jpg" alt="slide"></div>
+				<div class="slider_item"><img src="img/gallery/05.jpg" alt="slide"></div>
+				<div class="slider_item"><img src="img/gallery/06.jpg" alt="slide"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="atamans">
+		<div class="container">
+			<h2 class="atamans__title text-center">Кубанские атаманы</h2>
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+				<div class="col mb-4">
+					<div class="card">
+						<img src="img/kiv.png" class="card-img-top rounded-circle mx-auto d-block atamans__image"
+							alt="Атаман">
+						<div class="card-body">
+							<h5 class="card-title text-uppercase">Коровяковский Иван Вячеславович</h5>
+							<h6 class="card-subtitle mb-2 text-muted text-uppercase">Новокубанское хуторское казачье общество
+							</h6>
+							<p class="card-text">Избран атаманом в году таком-то от Рождества Христово. Родился, учился,
+								женился. Характер нордический. Хороший парень, истинный казак, в порочащих его связях не
+								замечен.</p>
+							<a href="#" class="btn btn-info stretched-link">Подробнее &raquo;</a>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4">
+					<div class="card">
+						<img src="img/kiv.png" class="card-img-top rounded-circle mx-auto d-block atamans__image"
+							alt="Атаман">
+						<div class="card-body">
+							<h5 class="card-title text-uppercase">Коровяковский Иван Вячеславович</h5>
+							<h6 class="card-subtitle mb-2 text-muted text-uppercase">Новокубанское хуторское казачье общество
+							</h6>
+							<p class="card-text">Избран атаманом в году таком-то от Рождества Христово. Родился, учился,
+								женился. Характер нордический. Хороший парень, истинный казак, в порочащих его связях не
+								замечен.</p>
+							<a href="#" class="btn btn-info stretched-link">Подробнее &raquo;</a>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4">
+					<div class="card">
+						<img src="img/kiv.png" class="card-img-top rounded-circle mx-auto d-block atamans__image"
+							alt="Атаман">
+						<div class="card-body">
+							<h5 class="card-title text-uppercase">Коровяковский Иван Вячеславович</h5>
+							<h6 class="card-subtitle mb-2 text-muted text-uppercase">Новокубанское хуторское казачье общество
+							</h6>
+							<p class="card-text">Избран атаманом в году таком-то от Рождества Христово. Родился, учился,
+								женился. Характер нордический. Хороший парень, истинный казак, в порочащих его связях не
+								замечен.</p>
+							<a href="#" class="btn btn-info stretched-link">Подробнее &raquo;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row flex-column flex-md-row">
+				<div class="col">
+					<h6 class="text-light"><b><u>Новокубанское районное казачье общество</u></b></h6>
+					<p class="text-light">Персональный сайт казачьего общества. При использовании материалов данного сайта в
+						обязательном
+						порядке указывать ссылку на данный ресурс.</p>
+				</div>
+				<div class="col footer__block-1">
+					<nav class="nav flex-column">
+						<a class="nav-link text-warning" href="#">Главная</a>
+						<a class="nav-link text-warning" href="#">О нас</a>
+						<a class="nav-link text-warning" href="#">Наша миссия</a>
+						<a class="nav-link text-warning" href="#">Новости</a>
+						<a class="nav-link text-warning" href="#">Галлерея</a>
+					</nav>
+				</div>
+				<div class="col footer__block-2">
+					<nav class="nav flex-column">
+						<a class="nav-link text-primary" href="#">Устав</a>
+						<a class="nav-link text-primary" href="#">Правила приема</a>
+						<a class="nav-link text-primary" href="#">Фин.отчетность</a>
+					</nav>
+				</div>
+				<div class="col footer__block-3">
+					<form>
+						<div class="form-group">
+							<label class="text-success" for="exampleInputEmail1">Подписка на новости</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+								placeholder="Введите свой email">
+						</div>
+						<button type="submit" class="btn btn-primary">Подписаться</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<section class="social">
+		<div class="container text-center">
+			<a class="btn btn-outline-warning" href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+			<a class="btn btn-outline-warning" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a class="btn btn-outline-warning" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a class="btn btn-outline-warning" href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+			<a class="btn btn-outline-warning" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a class="btn btn-outline-warning" href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+			<a class="btn btn-outline-warning" href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+		</div>
+	</section>
+
+
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
+
 </html>
